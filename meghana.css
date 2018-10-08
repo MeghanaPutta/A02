@@ -1,7 +1,7 @@
 article{
 	background-color:lightpink;
-	color:hotpink;
-	border-color:pink;
+	color:palevioletred;
+	border-color:none;
 	border-style:double;
 	}
 header{
@@ -56,10 +56,16 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: blue;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.img-circle {
+     width: 200px;
+     height: 200px;
+border-radius: 50%;
+}
+  
